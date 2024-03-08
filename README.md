@@ -1,91 +1,30 @@
 # hari-santanam.io
 #Test Hugo repository for profile page
-
-#
-# This file contains configuration flags to customize your site
-#
-# Name of website
-title: Hari Santanam's web page on Github
-
-# Name of your site (displayed in the header)
-name: Hari Santanam
-
-# Short bio or description (displayed in the header)
-description: Interested in Data Science/Machine Learning/Artificial Intelligence. 
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/HariSan1/harisan1.github.io/includes/hs-1.png
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: hari.santanam@gmail.com
-  facebook:
-  flickr:
-  github: harisan1
-  instagram:
-  linkedin: harisantanam  
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: users/6317849/h-san
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  
+layout: page
+title: home
+permalink: /home/
+---
+### Welcome to my Github web site
+## I am interested in Machine Learning, Artificial Intelligence and Data Science.  I am learning and also a practitioner.  Feel free to browse
+## my site and articles. Thanks for visiting!
 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
+### Blog and Publication links
+[My Blog is at Medium.com](https://medium.com/@hari.santanam)
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-#google_analytics:UA-77177035-1
+[I also have a personal blog at Blogspot ](http://business-it-knowledge.blogspot.com/)
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-#url:https://harisan1.github.io
+### Links to some of my articles
+[Value Proposition of AI for IT](https://medium.com/@hari.santanam/value-proposition-of-ai-for-it-1c8903c0ec25?source=search_post)
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+[Using Keras to predict fashion dataset in machine learning](https://medium.com/@hari.santanam/using-keras-to-predict-fashion-dataset-and-see-images-used-by-machine-learning-5f4a889fb1b0)
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+[Using Google Cloud ML Engine to train a regression model](https://medium.com/google-cloud/using-google-cloud-ml-engine-to-train-a-regression-model-e2a582de389e)
 
-permalink: /:title/
+[Using Google Cloud Datalab and Biq Query for Image Classification comparison](https://medium.com/google-cloud/using-google-datalab-and-bigquery-for-image-classification-comparison-13b2ffb26e67)
+			
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
 
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+### Contact me
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+[hari.santanam@gmail.com](mailto:hari.santanam@gmail.com)
