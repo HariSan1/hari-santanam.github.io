@@ -1,5 +1,5 @@
 # hari-santanam.io
-#Test Hugo repository for profile page
+
 layout: page
 title: home
 permalink: /home/
